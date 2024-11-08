@@ -1,5 +1,9 @@
 # Lets-Defend-Learning
 
 
-# Lets Defend Challenges: 
+# Lets Defend SOC Fundamentals: 
+
+Main Takeaways:
+
+
 
