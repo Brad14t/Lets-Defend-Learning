@@ -83,6 +83,8 @@ To see this go back to the conversations > then filter by IP addresses and look 
 
 <img width="949" alt="1" src="https://github.com/user-attachments/assets/8ccbe90f-51d9-4e4e-9ecc-0da4e078f87e">
 
+<img width="425" alt="Screenshot 2024-11-12 095053" src="https://github.com/user-attachments/assets/6f300bf2-eb8b-42e9-93f0-a06b37eddf21">
+
 
 
 
