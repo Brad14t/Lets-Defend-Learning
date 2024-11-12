@@ -4,6 +4,10 @@
 
 # Badges 
 
+<img width="120" height="100" alt="Screenshot 2024-11-12 095053" src="https://github.com/user-attachments/assets/7855fe7e-39ce-4a97-ac11-79a7f56ebd03">
+
+<img width="120" height="100" alt="Rounded Image" src="https://github.com/user-attachments/assets/5aa58d69-238a-4ab8-81f7-ceba904b2ed8">
+
 
 # Lets Defend SOC Fundamentals: 
 
@@ -147,9 +151,45 @@ After some struggling to get the command to work, what worked for me is I create
 
 I select the Output and copy the path
 
+**ERROR** if you are receiving a ernno 13 error code, was due to me extracting the files as a folder instead of extracting in the same directory.
 
+Make sure to select "extract files here"
 
+<img width="460" alt="1" src="https://github.com/user-attachments/assets/3ba12b67-79ae-4497-acbc-193bd1822328">
 
+Now I can see it worked.
+
+<img width="327" alt="Screenshot 2024-11-12 143749" src="https://github.com/user-attachments/assets/c4750e75-5de7-486e-8617-05db9b4198ae">
+
+Next in the Output file I right click and open with Notepad
+
+<img width="312" alt="1" src="https://github.com/user-attachments/assets/99945d80-1f3c-4d85-a0f1-c21efb3681f5">
+
+Opening this I can see the script using the AutoID language.
+
+Scrolling down I can find the domain used in the embedded code.
+
+<img width="733" alt="1" src="https://github.com/user-attachments/assets/c673df02-9a91-4999-bdb8-f8c302d7d6ca">
+
+**Q7 - What is the file path encoded in hexadecimal in the malicious code?**
+
+I can find the hexadecimal on the same page.
+
+<img width="737" alt="1" src="https://github.com/user-attachments/assets/d621b7b2-1bc0-486d-a678-74c547b53430">
+
+After copying the hexadecimal, open Cyber Cheif in the tools to decrpty.
+
+<img width="559" alt="1" src="https://github.com/user-attachments/assets/ee092204-d5d0-4f30-b1f4-04d843f18090">
+
+Once inside select from Hexadecimal > then paste hexadecimal 
+
+<img width="730" alt="1" src="https://github.com/user-attachments/assets/c51f072f-bd16-485f-9c1a-e06fecaf9c11">
+
+**Q8 - What is the name of the DLL called by the malicious code?**
+
+To find this scroll down to the bottom of the script.
+
+<img width="709" alt="1" src="https://github.com/user-attachments/assets/1b30901c-019d-4e68-9175-3b11767ec3f7">
 
 
 
