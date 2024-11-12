@@ -2,6 +2,8 @@
 
 **WireShark query documentation:** https://www.wireshark.org/docs/man-pages/wireshark-filter.html
 
+# Badges 
+
 
 # Lets Defend SOC Fundamentals: 
 
@@ -85,6 +87,65 @@ To see this go back to the conversations > then filter by IP addresses and look 
 
 <img width="425" alt="Screenshot 2024-11-12 095053" src="https://github.com/user-attachments/assets/6f300bf2-eb8b-42e9-93f0-a06b37eddf21">
 
+# Malicious AutoIT
+
+**Q1 - What is the MD5 hash of the sample file?**
+
+First is to go to file loacation. C:\Users\LetsDefend\Desktop\ChallengeFile\sample.zip 
+
+Unzip the file and open "HashCalc" tool > select the file 
+
+<img width="577" alt="1" src="https://github.com/user-attachments/assets/2801a4e8-b8ee-4975-beda-c86803192658">
+
+**Q2 - According to the Detect It Easy (DIE) tool, what is the entropy of the sample file?**
+
+First open the DIE tool > slect the "..." > select file
+
+<img width="538" alt="1" src="https://github.com/user-attachments/assets/57cb6338-e62a-4992-9ac5-513ed4a9c7d2">
+
+<img width="585" alt="1" src="https://github.com/user-attachments/assets/755be8d0-a699-4aa0-9e9e-dd2d3599f230">
+
+**Q3 - According to the Detect It Easy(DIE) tool, what is the virtual address of the “.text” section?**
+
+First go to the sections
+
+<img width="527" alt="1" src="https://github.com/user-attachments/assets/49171808-4e26-49ef-8303-b59883b13e95">
+
+In the sections we can see the .text virtual address.
+
+<img width="770" alt="1" src="https://github.com/user-attachments/assets/ef697e09-425f-4013-841d-a877e9781b1e">
+
+Required answer  format: 0x1000
+
+**Q4 - According to the Detect Easy tool, what is the “time date stamp”?**
+
+I can see the time stamp in the tool.
+
+<img width="539" alt="1" src="https://github.com/user-attachments/assets/ca73fce8-84c9-4cb4-883d-d9f1287bc2e3">
+
+**Q5 - According to the Detect It Easy (DIE) tool, what is the entry point address of the executable?**
+
+<img width="534" alt="1" src="https://github.com/user-attachments/assets/43b7a850-035f-4d3a-bcfc-ae8a136a67b5">
+
+Answer format: 0x42800a
+
+**Q6 - What is the domain used by the malicious embedded code?**
+
+First to find the domain I can use powershell to run the AutoIT- Ripper tool.
+
+Autoit-ripper tool is a python script that can extract compiled AutoIt sample.
+
+I open powershell and try to find the sample file.
+
+`cd Desktop\ChallengeFile`
+
+<img width="344" alt="1" src="https://github.com/user-attachments/assets/80124ecb-3cb3-44e8-bb18-7b1be999d867">
+
+After some struggling to get the command to work, what worked for me is I created a new folder with the sample data.
+
+<img width="583" alt="Screenshot 2024-11-12 113506" src="https://github.com/user-attachments/assets/dd6e09a4-9783-4a8a-8339-5a5201a1a541">
+
+I select the Output and copy the path
 
 
 
